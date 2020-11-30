@@ -8,6 +8,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;;
+}
+
 /** Container**/
 .container{
     padding-left: 1rem;
@@ -19,7 +23,7 @@ body{
 }
 
 :root{
-    --primary-color:#A78BFA;
+    --primary-color:#6EE7B7;
 
 }
 
