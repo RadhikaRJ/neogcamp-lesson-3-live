@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sansita+Swashed:wght@300&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    
 }
 
 hr {
@@ -56,6 +55,11 @@ hr {
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+.link-tertiary{
+    color: var(--primary-color);
+    
     border: 1px solid var(--primary-color);
 }
 
@@ -132,6 +136,20 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+
+.blog-content{
+    background-color: #EFF6FF;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: medium;
+    font-weight: bold;
+}
+.blog-content .blog-img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
 }
 
 /**footer**/
