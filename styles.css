@@ -32,9 +32,9 @@ hr {
 }
 
 :root {
-    --primary-color: #6EE7B7;
-    --dark-brown: #B45309;
-    --off-white: #E5E7EB;
+    --primary-color:#2563EB ;
+    --dark-brown:#BFDBFE;
+    --off-white: #DBEAFE;
 }
 
 /**Links**/
@@ -95,6 +95,7 @@ hr {
     font-weight: bold;
 }
 
+
 /**header**/
 
 .hero {
@@ -125,6 +126,7 @@ hr {
 
 .section h1 {
     text-align: center;
+    color:#2563EB;
 
 }
 
@@ -153,3 +155,4 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
